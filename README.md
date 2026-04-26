@@ -22,3 +22,7 @@ Clone into `~/repos/.claude/` to apply shared settings and commands to all subdi
 | Global | `~/.claude/` | Everything |
 | Shared | `~/repos/.claude/` | All repos |
 | Project | `~/repos/<project>/.claude/` | One project |
+
+---
+
+*Scaffolded with [Claude Code](https://claude.ai/code)*
