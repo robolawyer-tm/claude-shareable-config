@@ -36,7 +36,7 @@ Use today's date. Derive the topic tag from the current conversation context.
    ```
    # Inbox — captured inferences and project ideas
    ```
-2. Append the new entry after all existing content.
+2. Insert the new entry immediately after the header line, before all existing entries.
 3. Write the full file back using the Write tool.
 
 ## After writing

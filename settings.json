@@ -5,7 +5,9 @@
       "Bash(git -C * log*)",
       "Bash(git -C * show*)",
       "Bash(git -C * diff*)",
-      "Bash(jq *)"
+      "Bash(jq *)",
+      "Edit(/home/john/repos/pillars/capture/inbox.md)",
+      "Write(/home/john/repos/pillars/capture/inbox.md)"
     ]
   },
   "hooks": {
