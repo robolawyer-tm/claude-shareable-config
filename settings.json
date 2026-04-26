@@ -1,6 +1,25 @@
 {
   "permissions": {
-    "allow": []
+    "allow": [
+      "Bash(git -C * status)",
+      "Bash(git -C * log*)",
+      "Bash(git -C * show*)",
+      "Bash(git -C * diff*)",
+      "Bash(jq *)"
+    ]
   },
-  "hooks": {}
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"Reminder: if wrapping up, write any new project state, decisions, or user preferences to memory files at /home/john/.claude/projects/-home-john-repos/memory/ before the session closes.\"}'",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "theme": "dark-daltonized"
 }
